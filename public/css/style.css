@@ -1,0 +1,41 @@
+body {
+  color: rgb(54, 50, 50);
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 60px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  flex-grow: 1;
+}
+footer {
+  background-color: rgb(240, 232, 188);
+  padding: 1px;
+  margin-top: 16px;
+  color: rgb(87, 79, 79);
+}
+
+header {
+  margin-top: 16px;
+  margin-bottom: 40px;
+}
+header a {
+  color: rgb(104, 105, 143);
+  margin-right: 16px;
+
+  text-decoration: none;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.myprofile {
+  width: 250px;
+}
